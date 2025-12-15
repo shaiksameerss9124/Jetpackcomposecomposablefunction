@@ -25,9 +25,11 @@ class MainActivity : ComponentActivity() {
                       Column {
                          // greet("sameer" , 21 , Color.Green)
                         //  greet("sree")
-                          com("samee")
-                          com("sree")
-                          com("sam1231")
+                          //com("samee")
+                          //com("sree")
+                         // com("sam1231")
+
+                          method()
                       }
                 }
             }
