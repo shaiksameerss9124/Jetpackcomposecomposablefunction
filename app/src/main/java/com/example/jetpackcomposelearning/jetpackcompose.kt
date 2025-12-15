@@ -9,3 +9,7 @@ fun greet(name : String , age:Int , color : Color){
     Text("hello $name your age is $age and color is ${color.toString()}")
 
 }
+@Composable
+fun com(name :String){
+    Text("hello $name")
+}

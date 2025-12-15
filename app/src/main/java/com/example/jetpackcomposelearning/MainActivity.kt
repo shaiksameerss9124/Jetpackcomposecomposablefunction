@@ -23,8 +23,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackcomposelearningTheme {
                       Column {
-                          greet("sameer" , 21 , Color.Green)
+                         // greet("sameer" , 21 , Color.Green)
                         //  greet("sree")
+                          com("samee")
+                          com("sree")
+                          com("sam1231")
                       }
                 }
             }
