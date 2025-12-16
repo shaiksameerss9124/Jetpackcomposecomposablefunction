@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackcomposelearningTheme {
-                      Column {
+                   /*   Column {
                          // greet("sameer" , 21 , Color.Green)
                         //  greet("sree")
                           //com("samee")
@@ -31,6 +31,9 @@ class MainActivity : ComponentActivity() {
 
                           method()
                       }
+                      */
+
+                   coloumnlayout()
                 }
             }
         }
