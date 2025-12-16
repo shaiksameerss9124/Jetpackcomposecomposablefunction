@@ -37,7 +37,8 @@ class MainActivity : ComponentActivity() {
                   // coloumnlayout()
 
               //  lazylayout()
-                counter()
+               // counter()
+                ToggleExample()
 
 
                 }
