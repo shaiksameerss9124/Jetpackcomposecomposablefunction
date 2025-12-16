@@ -38,7 +38,9 @@ class MainActivity : ComponentActivity() {
 
               //  lazylayout()
                // counter()
-                ToggleExample()
+            //    ToggleExample()
+
+                parentcomposable()
 
 
                 }
