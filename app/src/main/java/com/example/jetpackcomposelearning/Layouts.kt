@@ -3,6 +3,7 @@ package com.example.jetpackcomposelearning
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
@@ -15,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun coloumnlayout() {
 
-    Column(modifier = Modifier.background(color = Color.Green).fillMaxSize() , horizontalAlignment =  Alignment.CenterHorizontally , verticalArrangement = Arrangement.Center ) {
+    Row (modifier = Modifier.background(color = Color.Green).fillMaxSize() , verticalAlignment = Alignment.CenterVertically , horizontalArrangement = Arrangement.Center) {
     Text("Hello Dosto")
     Text("Hi sameer")
         Button(onClick = {}) {
